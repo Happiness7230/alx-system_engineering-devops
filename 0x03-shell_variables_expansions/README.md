@@ -68,3 +68,20 @@ You will learn:
 | `6-create_local_variable` | Creates a new local variable |
 | `7-create_global_variable` | Creates a new global variable |
 | `8-true_knowledge` | Prints the r_
+
+| File Name                  | Description                                                                      |
+| -------------------------- | -------------------------------------------------------------------------------- |
+| `0-alias`                  | Creates an alias                                                                 |
+| `1-hello_you`              | Prints “hello user”, where user is the current Linux user                        |
+| `2-path`                   | Adds `/action` to the `PATH`, making it the last directory searched by the shell |
+| `3-paths`                  | Counts the number of directories in the `PATH`                                   |
+| `4-global_variables`       | Lists environment variables                                                      |
+| `5-local_variables`        | Lists all local and environment variables, and functions                         |
+| `6-create_local_variable`  | Creates a new local variable                                                     |
+| `7-create_global_variable` | Creates a new global variable                                                    |
+| `8-true_knowledge`         | Prints the result of adding 128 to a stored value                                |
+| `9-divide_and_rule`        | Prints the result of division                                                    |
+| `10-love_exponent_breath`  | Displays a variable to the power of another variable                             |
+| `11-binary_to_decimal`     | Converts binary to decimal                                                       |
+| `12-combinations`          | Prints all possible combinations of two letters except “oo”                      |
+| `13-print_float`           | Prints a number with two decimal places                                          |

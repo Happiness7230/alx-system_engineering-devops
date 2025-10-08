@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(echo "obase=bestchol; ibase=water; $WATER + $STIR" | tr 'waterstibchol' '0123456789ABCDEF' | bc | tr '0123456789ABCDEF' 'bestchol')

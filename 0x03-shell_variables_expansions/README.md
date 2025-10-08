@@ -1,30 +1,3 @@
-Skip to content
-You said:
-Write a readme from these 
-
-Create a script that creates an alias.
-
-    Name: ls
-    Value: rm *
-
-julien@ubuntu:/tmp/0x03$ ls
-0-alias  file1  file2
-julien@ubuntu:/tmp/0x03$ source ./0-alias 
-julien@ubuntu:/tmp/0x03$ ls
-julien@ubuntu:/tmp/0x03$ \ls
-julien@ubuntu:/tmp/0x03$ 
-
-Repo:
-
-    GitHub repository: alx-system_engineering-devops
-    Directory: 0x03-shell_variables_expansions
-    File: 0-alias
-ChatGPT said:
-
-Here's a professional and clear README.md file based on the information you provided:
-0x03. Shell, init files, variables and expansions
-Task: Alias Creation
-Description
 
 This project contains a script that defines a custom shell alias for the ls command. The alias redefines ls to perform a dangerous operation: it deletes all files in the current directory.
 
@@ -66,3 +39,32 @@ Repository Information
     File: 0-alias
 
 
+# 0x03. Shell, init files, variables and expansions
+
+## Description
+This project is part of the **ALX System Engineering & DevOps** curriculum.  
+It focuses on learning and practicing shell initialization files, variables, expansions, and how to use them in scripts.
+
+You will learn:
+- What happens when you start a new shell
+- How to create, use, and remove variables
+- The difference between local and global variables
+- What is a reserved variable
+- How to use command substitution
+- How to perform arithmetic and string expansions
+
+---
+
+## Project Structure
+
+| File Name | Description |
+|------------|-------------|
+| `0-alias` | Creates an alias |
+| `1-hello_you` | Prints “hello user”, where user is the current Linux user |
+| `2-path` | Adds `/action` to the PATH |
+| `3-paths` | Counts the number of directories in the PATH |
+| `4-global_variables` | Lists environment variables |
+| `5-local_variables` | Lists all local and environment variables, and functions |
+| `6-create_local_variable` | Creates a new local variable |
+| `7-create_global_variable` | Creates a new global variable |
+| `8-true_knowledge` | Prints the r_

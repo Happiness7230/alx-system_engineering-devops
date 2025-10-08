@@ -1,2 +1,3 @@
 #!/bin/bash
-awk 'NR % 2 == 1'
+readarray -t l; for ((i=0;i<${#l[@]};i+=2)); do echo "${l[i]}"; done
+

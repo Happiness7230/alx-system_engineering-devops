@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "$((10#$(echo $WATER | tr 'water' '01234') + 10#$(echo $STIR | tr 'stir' '56789')))" | tr '0123456789' 'bestcholhc'
+echo $((10#$(echo $WATER | tr 'water' '01234') + 10#$(echo $STIR | tr 'stir' '56789'))) | tr '0123456789' 'bestcholhc'
+
